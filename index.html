@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html lang="en">
+     <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Html e Css</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+     </head> 
+     <body> 
+        
+        
+        <header id="navbar">
+             <!-- Conteúdo do cabeçalho --> 
+        <h1> The Dev News</h1>
+        </header>
+
+
+    <main id="container">
+      <div id="content">
+        <section id="main-post">
+          <div id="main-post-overlay">
+            <!-- Conteúdo do post principal -->
+             <img  src="img/banner.svg" alt="">
+          </div>
+        </section>
+        
+        <section id="recent-posts">
+          <div class="section-title">
+            <!-- Título da seção -->
+             <h2 id="title-post-recent">Posts mais recentes</h2>
+             <p id="text-post-recent">Ver todas</p>
+          </div>
+
+          <div class="posts-grid">
+            <article class="post-item">
+              <!-- Estrutura repetida para cada post recente -->
+              <img src="img/foto1.svg" alt="">
+              <h3 class="sub-title-grid">desenvolvimento</h3>
+              <h2 class="title-grid">Desenvolvimento mobile</h2>
+              <h3 class="by">By Fabio Tetsuo</h3>
+              <p>Lorem ipsum dolor sit amet consectetur. In vitae urna commodo amet congue integer dapibus. Interdum semper mauris convallis fusce enim odio. Vitae montes ridiculus felis.</p>
+              <h3 class="data-grid">22 Agosto 2022</h3>
+
+            </article>
+            <!-- Mais artigos aqui -->
+
+            <article class="post-item">
+                <!-- Estrutura repetida para cada post recente -->
+                <img src="img/foto2.svg" alt="">
+                <h3 class="sub-title-grid">saude</h3>
+                <h2 class="title-grid">Balancear vida profissional e pessoal</h2>
+                <h3  class="by">By Ridho Satriawan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Et consectetur at consectetur sed nisl tempor.</p>
+                <h3 class="data-grid">22 Agosto 2022</h3>
+  
+              </article>
+              <!-- Mais artigos aqui -->
+
+              <article class="post-item">
+                <!-- Estrutura repetida para cada post recente -->
+                <img src="img/foto3.svg" alt="">
+                <h3 class="sub-title-grid">desenvolvimento</h3>             
+                <h2 class="title-grid">Configurando VSCode</h2>
+                <h3  class="by">By Fabio Tetsuo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur. Erat interdum tortor ac sagittis id a etiam. Tellus vitae arcu dignissim massa aliquam vel tellus. Ipsum massa arcu nulla sed purus in ac.</p>
+                <h3 class="data-grid">22 Agosto 2022</h3>
+  
+              </article>
+              <!-- Mais artigos aqui -->
+
+              <article class="post-item">
+                <!-- Estrutura repetida para cada post recente -->
+                <img src="img/foto4.svg" alt="">
+                <h3 class="sub-title-grid">produtividade</h3>
+                <h2 class="title-grid">2 monitores ou 1 ultrawide?</h2>
+                <h3  class="by">By Fulano da Silva</h3>
+                <p class="text-grid">Lorem ipsum dolor sit amet consectetur. Arcu tellus adipiscing sagittis tristique. Eget molestie posuere enim pretium venenatis nunc ligula donec a. Velit senectus amet nulla.</p>
+                <h3 class="data-grid">22 Agosto 2022</h3>
+  
+              </article>
+              <!-- Mais artigos aqui -->
+          </div>
+        </section>
+      </div>
+      
+      <aside id="sidebar">
+        <section class="sidebar-item">
+          <!-- Seção de posts populares -->
+           <div class="title-post-pop">
+           
+            <h2>Posts populares</h2>
+
+           </div>
+          
+          
+          <article class="sidepost-item">
+            <!-- Estrutura repetida para cada post lateral -->
+           
+            <div class="flex">
+                
+                <img src="img/dev.svg" alt="">  
+                <div class="flex2">
+                  
+                <h2>Desevolvimento atual</h2>
+                <p class="data-grid">22 Agosto 2022</p>
+            </div>
+       
+
+          </article>
+          <!-- Mais artigos aqui -->
+
+          <article class="sidepost-item">
+            <!-- Estrutura repetida para cada post lateral -->
+            
+            <div class="flex">
+                <img src="img/git.svg" alt="">   
+                <div class="flex2">
+                <h2>GitLab vs GitHub</h2>
+            <p class="data-grid">22 Agosto 2022</p>
+        </div>
+
+          </article>
+          <!-- Mais artigos aqui -->
+
+          <article class="sidepost-item">
+            <!-- Estrutura repetida para cada post lateral -->
+
+            <div class="flex">
+                <img src="img/cafe.svg" alt="">   
+                <div class="flex2">
+                <h2>Café atrapalha?</h2>
+            <p class="data-grid">22 Agosto 2022</p>
+        </div>
+
+          </article>
+          <!-- Mais artigos aqui -->
+          
+       
+
+
+        </section>
+        
+        <section class="sidebar-item">
+          <!-- Seção de categorias -->
+          <div class="title-category">
+            <h2>Categorias</h2>
+          </div>
+          
+          <ul id="categories-list">
+            <li class="category-item">
+             <h3>> saude</h3>
+            </li>
+            <!-- Mais itens de categoria aqui -->
+            <li class="category-item">
+                <h3>> desenvolvimento</h3>
+              </li>
+              <li class="category-item">
+                <h3>> produtividade</h3>
+              </li>
+              <li class="category-item">
+                <h3>> opiniao</h3>
+              </li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+    
+    <footer class="footer" >
+      <!-- Conteúdo do rodapé -->
+       <h2 class="footer-text">Copyright@The Dev News</h2>
+    </footer>
+    </body>
+     </html>
+
+
+   
