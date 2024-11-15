@@ -1,8 +1,12 @@
 *{
     margin: 0rem;
     font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
 #navbar {
     background-color: #02A28F;
     color: #FFFFFF;
